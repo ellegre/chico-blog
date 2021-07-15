@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   purge: {
-    enabled: process.env.NODE_ENV  === 'production',
+    enabled: process.env.NODE_ENV === 'production',
     content: [
       './components/**/*.{vue,js}',
       './layouts/**/*.vue',
@@ -21,9 +21,6 @@ module.exports = {
       fontFamily: {
         caveat: ['Caveat', 'cursive']
       },
-      fontSize: {
-
-      },
       colors: {
         brand: {
           DEFAULT: "#0d9488",
@@ -31,13 +28,6 @@ module.exports = {
           dark: "#115e59"
         },
         gray: colors.blueGray
-      },
-      padding: {
-        '1/3': '33.33333%',
-        '2/3': '66.66667%'
-      },
-      container: {
-
       }
     }
   },

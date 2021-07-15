@@ -13,6 +13,6 @@ module.exports = {
       }
     ],
     'declaration-block-trailing-semicolon': null,
-    'no-descending-specificity': null,
+    'no-descending-specificity': null
   }
 }

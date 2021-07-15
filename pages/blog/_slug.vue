@@ -26,13 +26,7 @@ export default {
         { hid: 'description', name: 'description', content: this.article.description },
         { name: 'format-detection', content: 'telephone=no' }
       ],
-      link: [
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: 'https://'
-        }
-      ]
+      link: []
     }
   },
   async asyncData ({ $content, params }) {
@@ -50,7 +44,6 @@ export default {
       next
     }
   },
-
   methods: {
     formatDate (date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
@@ -59,7 +52,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>

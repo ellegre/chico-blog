@@ -5,8 +5,6 @@ img: /img/hat2.jpg
 alt: A dog
 author:
   name: Chico
-  bio: 
-
 ---
 The Ca de Bou is a medium-sized breed with a strong, muscular build. They have a wide chest and an elongated body. Their coat is short, dense, and soft to the touch.They have a large, square-shaped head and powerful jaws.
 

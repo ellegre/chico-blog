@@ -4,10 +4,7 @@ description:  We have it! You will never be alone and abandoned in the kitchen, 
 img: /img/kitchen.jpeg
 alt:  
 author:
-  name: Chico
-  bio: A tasty cake
-
-
+  name: Mom
 ---
 Ca de bou captivates with their willingness to help in the kitchen. As long as the whole family has nothing to do with the fact that you are alone at the stove, this dog will not leave you. 
 

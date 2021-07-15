@@ -15,11 +15,7 @@ export default {
       { hid: 'description', name: 'description', content: 'A blog of ca de bou Chico' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
-    link: [
-      {
-
-       }
-    ]
+    link: []
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -28,9 +24,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

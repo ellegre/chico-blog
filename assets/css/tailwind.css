@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-red-300;
+  @apply bg-gray-100;
 }
 .section-wrapper {
   @apply px-5 space-y-4 max-w-md mx-auto sm:max-w-xl lg:max-w-3xl sm:space-y-8 xl:px-12;

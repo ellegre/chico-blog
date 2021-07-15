@@ -13,7 +13,6 @@
 </template>
 
 <script>
-
 export default {
   head: {
     titleTemplate: '',
@@ -34,6 +33,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-
-</style>
