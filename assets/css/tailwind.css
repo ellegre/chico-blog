@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  body {
+    @apply bg-gray-100;
+  }
+  .section-wrapper {
+    @apply px-5 space-y-4 max-w-md mx-auto sm:max-w-xl lg:max-w-3xl sm:space-y-8 xl:px-12;
+  }
+  .page-h1 {
+    @apply my-3 md:text-3xl font-bold text-brand uppercase text-xl;
+  }
+  .page-h1-main {
+    @apply my-3 md:text-3xl font-bold text-white uppercase text-xl;
+  }
+  .page-h2 {
+    @apply my-6 mt-7 md:text-2xl font-bold text-brand uppercase text-xl;
+  }
+  .nav-link {
+    @apply text-xs uppercase font-light p-2 hover:text-yellow-600 transition duration-300;
+  }
+  .nav-link-mobile {
+    @apply text-white block uppercase pt-3 pl-3 pb-2 hover:text-yellow-600 transition duration-300;
+  }
+  .external {
+    @apply text-purple-500 underline;
+  }
+  .card {
+    @apply bg-white rounded overflow-hidden shadow-md hover:shadow-lg mb-2;
+  }
+  .text-p {
+    @apply text-gray-600 text-sm sm:text-base leading-7 tracking-wider;
+  }
+
+  .nuxt-link-exact-active {
+    color: #d97706
+
+  }
+
+
