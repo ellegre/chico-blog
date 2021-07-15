@@ -42,7 +42,6 @@
               :src="article.img"
               :alt="article.alt"
             />
-
             <div
               class="p-6 flex flex-col justify-between xxlmin:w-1/2 xxlmax:w-full"
             >
