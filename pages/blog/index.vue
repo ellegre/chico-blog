@@ -4,7 +4,7 @@
       <h1 class="page-h1">Recent articles</h1>
       <p class="text-p pb-5 md:pb-16">Latest thoughts and notes about living near Chico. Stay tuned!</p>
       <ul class="grid md:grid-cols-2 xl:grid-cols-3 gap-11 ">
-        <li class="" v-for="article of articles" :key="article.slug">
+        <li v-for="article of articles" :key="article.slug">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug }}">
             <div class="card">
               <div class="aspect-w-2 aspect-h-1 sm:aspect-w-3 sm:aspect-h-2">

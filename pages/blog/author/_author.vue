@@ -7,7 +7,7 @@
         :src="articles[0].author.img"
         :alt="articles[0].author.name"
         class="absolute h-full w-full object-cover"
-      />
+      >
     </div>
 
     <div class="overlay"></div>
@@ -41,7 +41,7 @@
               class="h-48 xxlmin:w-1/2 xxlmax:w-full object-cover"
               :src="article.img"
               :alt="article.alt"
-            />
+            >
             <div
               class="p-6 flex flex-col justify-between xxlmin:w-1/2 xxlmax:w-full"
             >

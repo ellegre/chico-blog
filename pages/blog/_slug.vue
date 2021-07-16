@@ -14,6 +14,21 @@
 
 <script>
 export default {
+   async asyncData ({ $content, params }) {
+    const article = await $content('articles', params.slug).fetch()
+
+    const [prev, next] = await $content('articles')
+      .only(['title', 'slug'])
+      .sortBy('createdAt', 'asc')
+      .surround(params.slug)
+      .fetch()
+
+    return {
+      article,
+      prev,
+      next
+    }
+  },
   head () {
     return {
       title: this.article.title,
@@ -27,21 +42,6 @@ export default {
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: []
-    }
-  },
-  async asyncData ({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
-
-    const [prev, next] = await $content('articles')
-      .only(['title', 'slug'])
-      .sortBy('createdAt', 'asc')
-      .surround(params.slug)
-      .fetch()
-
-    return {
-      article,
-      prev,
-      next
     }
   },
   methods: {

@@ -1,7 +1,7 @@
 <template>
   <div class="w-full px-2 xs:mb-6 md:mb-12 article-card">
     <nuxt-link :to="`/blog/author/${author.name}`">
-      <img :src="author.img" />
+      <img :src="author.img">
       <div>
         <h4>Author: {{ author.name }}</h4>
       </div>

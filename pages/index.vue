@@ -1,17 +1,17 @@
 <template>
   <div class="pt-14">
-     <section class="flex items-center h-44 pl-5 sm:pl-20 sm:mb-10 md:pl-8 md:h-56 lg:h-96 lg:pl-32 relative bg-texture-brick bg-texture bg-cover">
+    <section class="promo flex items-center h-44 pl-5 sm:pl-20 sm:mb-10 md:pl-8 md:h-56 lg:h-96 lg:pl-32 relative bg-texture-brick bg-texture bg-cover">
       <h1 class=" page-h1-main md:tracking-widest z-20 transform -rotate-6 leading-1 text-white md:text-2xl lg:text-4xl lg:leading-relaxed xl:text-5xl">Meet <span class="font-caveat text-big">Chico &mdash;<br></span> Beautiful & Brave<br> Ca De Bou male!</h1>
-      <img class="w-28 md:w-48 lg:w-64 absolute z-10 right-16 bottom-0" src="/img/chico.png">
+      <img class="w-28 md:w-48 lg:w-64 absolute z-10 right-4 sm:right-16 bottom-0" src="/img/chico.png">
     </section>
-    <section class="section-wrapper sm:py-10">
+    <section class="about section-wrapper sm:py-10">
       <h2 class="page-h2 text-center sm:text-left">What is ca de bou?</h2>
       <p class="text-p">This is a Spanish breed from Mallorca. The Ca de Bou dog is powerful and with a strong, muscular build. His ancestors were bull baiters and dog fighters.</p>
       <p class="text-p">He is a great family dog but he is also an intelligent dog with a stubborn streak and powerful instincts. That’s why the Ca de Bou is not a good choice for a first-time dog owner. This breed needs an experienced trainer who can be a strong leader.</p>
       <p class="text-p">The Ca de Bou temperament is loyal and devoted to every member of his family. He shows great love and affection for people he knows. Also, he is very playful, especially with kids.</p>
       <img class="w-full rounded-lg shadow-xl md:h-64 lg:h-96 sm:object-cover object-center" src="/img/2.jpeg" alt="Ca de bou">
     </section>
-    <section class="bg-gray-200 py-10">
+    <section class="benefits bg-gray-200 py-10">
       <div class="max-w-lg mx-auto lg:max-w-5xl xl:px-12">
         <h2 class="my-6 md:text-2xl font-bold uppercase text-xl text-center text-gray-800 my-8">Benefits having Chico</h2>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 space-x-2 place-items-center">

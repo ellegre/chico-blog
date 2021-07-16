@@ -34,7 +34,7 @@ module.exports = {
   variants: {
     extend: {
       textColor: ['hover','active']
-    },
+    }
   },
-  plugins: [require('@tailwindcss/aspect-ratio')],
+  plugins: [require('@tailwindcss/aspect-ratio')]
 }
